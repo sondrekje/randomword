@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body#login {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  background: url(swbg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#login form {
+  text-align: center;
+  display: block;
+}
+#login h1 {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+#login h1 span {
+  color: #9A9E98;
+  font-size: 40px;
+}
+#login form input {
+  display: inline-block;
+  border: none;
+  font-size: 20px;
+}
+#login form input[type=text], form input[type=password] {
+  padding: 10px;
+  width: 300px;
+  text-align: left;
+}
+#login form input[type=submit] {
+  background-color: #424242;
+  width: 300px;
+  border: none;
+  padding: 10px;
+  color: white;
+  transition: background-color 1s;
+}
+#login form input[type=submit]:hover {
+  background-color: #737572;
+}
+#login p {
+  color: white;
+  background-color: rgba(255,255,255,0.4);
+  padding: 10px;
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+#login p#error	{ 
+background-color:red;
+}

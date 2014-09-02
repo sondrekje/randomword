@@ -5,7 +5,7 @@ if (!isset($_SESSION['IN'])) {
 	header("Location: login.php?");
 }
 
-//$con=mysqli_connect("mysql8.000webhost.com", "a5927842_root", "cxdurroot123", "a5927842_swat");
+//$con=mysqli_connect("*", "*", "*", "*");
 $con=mysqli_connect("localhost", "root", "root", "swat");
 
 if (mysqli_connect_errno()) {
